@@ -128,7 +128,7 @@ class Main():
         xbmcgui.Dialog().ok(__scriptname__,t1,t2,t3)
       
       else:                                        # ask user if we should fetch the
-        t1 = __language__(504)                     # lib for osx, ios and windows
+        t1 = __language__(504)                     # lib for android, osx, ios and windows
         t2 = __language__(509)
         if xbmcgui.Dialog().yesno(__scriptname__,t1,t2):
           tools_downloadLibBoblight(platform,settings.other_misc_notifications)
